@@ -1,0 +1,7 @@
+import com.parking.Place
+
+model {
+	Place place
+}
+
+json g.render(place, [resolveTemplate: false])

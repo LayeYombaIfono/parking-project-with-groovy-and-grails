@@ -1,0 +1,8 @@
+import com.parking.Vehicule
+
+model {
+	Iterable<Vehicule> vehiculeList
+}
+
+json tmpl.vehicule(vehiculeList ?: [])
+

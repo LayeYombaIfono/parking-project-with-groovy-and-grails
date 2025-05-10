@@ -1,0 +1,7 @@
+import com.parking.Zone
+
+model {
+	Zone zone
+}
+
+json g.render(zone, [resolveTemplate: false])

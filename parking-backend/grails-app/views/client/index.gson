@@ -1,0 +1,8 @@
+import com.parking.Client
+
+model {
+	Iterable<Client> clientList
+}
+
+json tmpl.client(clientList ?: [])
+

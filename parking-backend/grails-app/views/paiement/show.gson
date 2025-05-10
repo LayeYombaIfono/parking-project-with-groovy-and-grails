@@ -1,0 +1,7 @@
+import com.parking.Paiement
+
+model {
+	Paiement paiement
+}
+
+json tmpl.paiement(paiement)

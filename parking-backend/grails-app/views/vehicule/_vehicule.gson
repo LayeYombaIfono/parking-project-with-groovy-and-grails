@@ -1,0 +1,7 @@
+import com.parking.Vehicule
+
+model {
+	Vehicule vehicule
+}
+
+json g.render(vehicule, [resolveTemplate: false])

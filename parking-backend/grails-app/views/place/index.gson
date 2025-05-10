@@ -1,0 +1,8 @@
+import com.parking.Place
+
+model {
+	Iterable<Place> placeList
+}
+
+json tmpl.place(placeList ?: [])
+

@@ -1,0 +1,8 @@
+import com.parking.Zone
+
+model {
+	Iterable<Zone> zoneList
+}
+
+json tmpl.zone(zoneList ?: [])
+

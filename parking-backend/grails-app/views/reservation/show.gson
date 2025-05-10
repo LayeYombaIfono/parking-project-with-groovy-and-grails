@@ -1,0 +1,7 @@
+import com.parking.Reservation
+
+model {
+	Reservation reservation
+}
+
+json tmpl.reservation(reservation)
