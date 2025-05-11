@@ -1,0 +1,14 @@
+<div class="container">
+  <h1 class="text-center fs-1">Liste des parking</h1>
+
+  <div class="">
+    <ul>
+      @for( parking of parkings; track $index){
+      <li>
+        {{ parking.nom }}
+      </li>
+      }
+      <li>Nom</li>
+    </ul>
+  </div>
+</div>

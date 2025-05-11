@@ -50,7 +50,10 @@ environments:
         management:
             endpoints:
                 enabled-by-default: false
-
+server:
+    port: 9091
+    servlet:
+        context-path: '/api'
 ---
 grails:
     mime:
